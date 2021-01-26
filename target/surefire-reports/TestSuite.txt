@@ -1,24 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 5.875 s <<< FAILURE! - in TestSuite
-com.eo.tests.GetUsers.getUsersCount_TC002  Time elapsed: 0.112 s  <<< FAILURE!
+Tests run: 7, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 6.34 s <<< FAILURE! - in TestSuite
+com.eo.tests.GetUsers.getUsersCount_TC002  Time elapsed: 0.146 s  <<< FAILURE!
 java.lang.AssertionError: expected [6] but found [12]
 	at com.eo.tests.GetUsers.getUsersCount_TC002(GetUsers.java:79)
 
-com.eo.tests.GetUsers.getUsersIncorrectEP_TC003  Time elapsed: 0.095 s  <<< FAILURE!
+com.eo.tests.GetUsers.getUsersIncorrectEP_TC003  Time elapsed: 0.111 s  <<< FAILURE!
 java.lang.AssertionError: expected [200] but found [404]
 	at com.eo.tests.GetUsers.getUsersIncorrectEP_TC003(GetUsers.java:93)
 
-com.eo.tests.PostNewUser.createNewUserIncorrectEP_TC005  Time elapsed: 0.171 s  <<< FAILURE!
+com.eo.tests.PostNewUser.createNewUserIncorrectEP_TC005  Time elapsed: 0.15 s  <<< FAILURE!
 java.lang.AssertionError: expected [201] but found [404]
 	at com.eo.tests.PostNewUser.createNewUserIncorrectEP_TC005(PostNewUser.java:81)
 
-com.eo.tests.PostNewUser.createNewUserIncorrectParamValuesInteger_TC006  Time elapsed: 0.202 s  <<< FAILURE!
+com.eo.tests.PostNewUser.createNewUserIncorrectParamValuesInteger_TC006  Time elapsed: 0.129 s  <<< FAILURE!
 java.lang.AssertionError: expected [201] but found [400]
 	at com.eo.tests.PostNewUser.createNewUserIncorrectParamValuesInteger_TC006(PostNewUser.java:105)
 
-com.eo.tests.PostNewUser.createNewUserIncorrectParamValuesSpecChar_TC007  Time elapsed: 0.137 s  <<< FAILURE!
+com.eo.tests.PostNewUser.createNewUserIncorrectParamValuesSpecChar_TC007  Time elapsed: 0.121 s  <<< FAILURE!
 java.lang.AssertionError: expected [201] but found [400]
 	at com.eo.tests.PostNewUser.createNewUserIncorrectParamValuesSpecChar_TC007(PostNewUser.java:131)
 

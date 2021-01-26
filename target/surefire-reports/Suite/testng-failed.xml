@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.eo.resource.ExtentReporter"/>
+  </listeners>
+  <test thread-count="5" name="EOAPITest(failed)" verbose="0">
+    <classes>
+      <class name="com.eo.tests.PostNewUser">
+        <methods>
+          <include name="createNewUserIncorrectEP_TC005"/>
+          <include name="createNewUserIncorrectParamValuesInteger_TC006"/>
+          <include name="createNewUserIncorrectParamValuesSpecChar_TC007"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.eo.tests.PostNewUser -->
+      <class name="com.eo.tests.GetUsers">
+        <methods>
+          <include name="setUp"/>
+          <include name="getUsersCount_TC002"/>
+          <include name="getUsersIncorrectEP_TC003"/>
+        </methods>
+      </class> <!-- com.eo.tests.GetUsers -->
+    </classes>
+  </test> <!-- EOAPITest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

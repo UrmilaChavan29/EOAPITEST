@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 6.854 s <<< FAILURE! - in TestSuite
+com.eo.tests.GetUsers.getUsersCount_TC002  Time elapsed: 0.294 s  <<< FAILURE!
+java.lang.AssertionError: expected [6] but found [12]
+	at com.eo.tests.GetUsers.getUsersCount_TC002(GetUsers.java:72)
+
+com.eo.tests.GetUsers.getUsersIncorrectEP_TC003  Time elapsed: 0.288 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at com.eo.tests.GetUsers.getUsersIncorrectEP_TC003(GetUsers.java:86)
+
+com.eo.tests.PostNewUser.createNewUserIncorrectEP_TC005  Time elapsed: 0.324 s  <<< FAILURE!
+java.lang.AssertionError: expected [201] but found [404]
+	at com.eo.tests.PostNewUser.createNewUserIncorrectEP_TC005(PostNewUser.java:78)
+
+com.eo.tests.PostNewUser.createNewUserIncorrectParamValuesInteger_TC006  Time elapsed: 0.285 s  <<< FAILURE!
+java.lang.AssertionError: expected [201] but found [400]
+	at com.eo.tests.PostNewUser.createNewUserIncorrectParamValuesInteger_TC006(PostNewUser.java:102)
+
+com.eo.tests.PostNewUser.createNewUserIncorrectParamValuesSpecChar_TC007  Time elapsed: 0.239 s  <<< FAILURE!
+java.lang.AssertionError: expected [201] but found [400]
+	at com.eo.tests.PostNewUser.createNewUserIncorrectParamValuesSpecChar_TC007(PostNewUser.java:128)
+

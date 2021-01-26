@@ -42,12 +42,15 @@ public class PostNewUser {
 		int statusCode=response.getStatusCode();
 		System.out.println("Status code: " + statusCode);
 		Assert.assertEquals(201, statusCode);
+		
 		//verify id generated for data
 		String idValue=response.jsonPath().get("id");
 		Assert.assertNotNull(idValue);
+		
 		//verify body post is created in response
 		Assert.assertTrue(response.jsonPath().get("name").equals(userName));
 		Assert.assertTrue(response.jsonPath().get("job").equals(userJob));
+		
 		//Verify headers
 		String contentType=response.header("Content-Type");
 		Assert.assertEquals("application/json; charset=utf-8", contentType);
@@ -55,8 +58,8 @@ public class PostNewUser {
 	  }
 	
 	@Test(priority=1)
-	  public void createNewUserIncorrectEP_TC005() 
-	{	
+	  public void createNewUserIncorrectEP_TC005() {
+	  	
 		//Request Object
 		RequestSpecification httpRequest=RestAssured.given();
 		
@@ -79,8 +82,8 @@ public class PostNewUser {
 	}
 	
 	@Test(priority=2)
-	  public void createNewUserIncorrectParamValuesInteger_TC006() 
-	{	
+	  public void createNewUserIncorrectParamValuesInteger_TC006() {
+		
 		//Request Object
 		RequestSpecification httpRequest=RestAssured.given();
 		
@@ -126,6 +129,7 @@ public class PostNewUser {
 		int statusCode=response.getStatusCode();
 		System.out.println("Status code: " + statusCode);
 		Assert.assertEquals(400, statusCode);
+		
 		//verify id not generated for data
 		String idValue=response.jsonPath().get("id");
 		Assert.assertNull(idValue);			
@@ -135,11 +139,11 @@ public class PostNewUser {
 	
 	//Using DataProvider hard code the values here
 
-	String[][] getUserData(){
-	String userData[][]=  {{"xyz","tester"}};
-	return userData;
-	}
-	
+		String[][] getUserData(){
+		String userData[][]=  {{"xyz","tester"}};
+		return userData;
+		}
+		
 	//Read data from excel
 	/* 
 		String [][] getUserDa() throws IOException {

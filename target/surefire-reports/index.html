@@ -170,7 +170,7 @@
                   </a> <!-- createNewUserIncorrectEP_TC005 -->
                   <span class="method-name">createNewUserIncorrectEP_TC005</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [201] but found [404]
-	at com.eo.tests.PostNewUser.createNewUserIncorrectEP_TC005(PostNewUser.java:78)
+	at com.eo.tests.PostNewUser.createNewUserIncorrectEP_TC005(PostNewUser.java:81)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
 ... Removed 37 stack frames
 </div> <!-- stack-trace -->
@@ -182,7 +182,7 @@
                   </a> <!-- createNewUserIncorrectParamValuesInteger_TC006 -->
                   <span class="method-name">createNewUserIncorrectParamValuesInteger_TC006</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [201] but found [400]
-	at com.eo.tests.PostNewUser.createNewUserIncorrectParamValuesInteger_TC006(PostNewUser.java:102)
+	at com.eo.tests.PostNewUser.createNewUserIncorrectParamValuesInteger_TC006(PostNewUser.java:105)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
 ... Removed 37 stack frames
 </div> <!-- stack-trace -->
@@ -194,7 +194,7 @@
                   </a> <!-- createNewUserIncorrectParamValuesSpecChar_TC007 -->
                   <span class="method-name">createNewUserIncorrectParamValuesSpecChar_TC007</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [201] but found [400]
-	at com.eo.tests.PostNewUser.createNewUserIncorrectParamValuesSpecChar_TC007(PostNewUser.java:128)
+	at com.eo.tests.PostNewUser.createNewUserIncorrectParamValuesSpecChar_TC007(PostNewUser.java:131)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
 ... Removed 37 stack frames
 </div> <!-- stack-trace -->
@@ -214,7 +214,7 @@
                   </a> <!-- getUsersCount_TC002 -->
                   <span class="method-name">getUsersCount_TC002</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [6] but found [12]
-	at com.eo.tests.GetUsers.getUsersCount_TC002(GetUsers.java:72)
+	at com.eo.tests.GetUsers.getUsersCount_TC002(GetUsers.java:79)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
 ... Removed 37 stack frames
 </div> <!-- stack-trace -->
@@ -226,7 +226,7 @@
                   </a> <!-- getUsersIncorrectEP_TC003 -->
                   <span class="method-name">getUsersIncorrectEP_TC003</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [200] but found [404]
-	at com.eo.tests.GetUsers.getUsersIncorrectEP_TC003(GetUsers.java:86)
+	at com.eo.tests.GetUsers.getUsersIncorrectEP_TC003(GetUsers.java:93)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
 ... Removed 37 stack frames
 </div> <!-- stack-trace -->
@@ -325,36 +325,36 @@ data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'getUsersValidEP_TC001')
 data.setCell(0, 2, 'com.eo.tests.GetUsers')
-data.setCell(0, 3, 2487);
+data.setCell(0, 3, 2379);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'createNewUser_TC004')
 data.setCell(1, 2, 'com.eo.tests.PostNewUser')
-data.setCell(1, 3, 405);
+data.setCell(1, 3, 225);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'createNewUserIncorrectEP_TC005')
+data.setCell(2, 1, 'createNewUserIncorrectParamValuesInteger_TC006')
 data.setCell(2, 2, 'com.eo.tests.PostNewUser')
-data.setCell(2, 3, 320);
+data.setCell(2, 3, 209);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'getUsersCount_TC002')
-data.setCell(3, 2, 'com.eo.tests.GetUsers')
-data.setCell(3, 3, 314);
+data.setCell(3, 1, 'createNewUserIncorrectEP_TC005')
+data.setCell(3, 2, 'com.eo.tests.PostNewUser')
+data.setCell(3, 3, 165);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'getUsersIncorrectEP_TC003')
+data.setCell(4, 1, 'getUsersCount_TC002')
 data.setCell(4, 2, 'com.eo.tests.GetUsers')
-data.setCell(4, 3, 288);
+data.setCell(4, 3, 130);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'createNewUserIncorrectParamValuesInteger_TC006')
+data.setCell(5, 1, 'createNewUserIncorrectParamValuesSpecChar_TC007')
 data.setCell(5, 2, 'com.eo.tests.PostNewUser')
-data.setCell(5, 3, 285);
+data.setCell(5, 3, 128);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'createNewUserIncorrectParamValuesSpecChar_TC007')
-data.setCell(6, 2, 'com.eo.tests.PostNewUser')
-data.setCell(6, 3, 238);
+data.setCell(6, 1, 'getUsersIncorrectEP_TC003')
+data.setCell(6, 2, 'com.eo.tests.GetUsers')
+data.setCell(6, 3, 94);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -387,68 +387,68 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getUsersValidEP_TC001</span>
-                <span class="method-start">794 ms</span>
+                <span class="method-start">786 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">3289 ms</span>
+                <span class="method-start">3173 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">getUsersCount_TC002</span>
-                <span class="method-start">3289 ms</span>
+                <span class="method-start">3174 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">3608 ms</span>
+                <span class="method-start">3310 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">getUsersIncorrectEP_TC003</span>
-                <span class="method-start">3608 ms</span>
+                <span class="method-start">3311 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.eo.tests.PostNewUser</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">3900 ms</span>
+                <span class="method-start">3411 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">createNewUser_TC004(xyz, tester)</span>
-                <span class="method-start">3901 ms</span>
+                <span class="method-start">3412 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">4307 ms</span>
+                <span class="method-start">3638 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">createNewUserIncorrectEP_TC005</span>
-                <span class="method-start">4308 ms</span>
+                <span class="method-start">3639 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">4630 ms</span>
+                <span class="method-start">3805 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">createNewUserIncorrectParamValuesInteger_TC006</span>
-                <span class="method-start">4630 ms</span>
+                <span class="method-start">3806 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">4916 ms</span>
+                <span class="method-start">4016 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">createNewUserIncorrectParamValuesSpecChar_TC007</span>
-                <span class="method-start">4917 ms</span>
+                <span class="method-start">4017 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

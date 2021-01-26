@@ -13,8 +13,8 @@ import junit.framework.Assert;
 public class GetUsersPrintHeaders {
 
 	@Test
-	  public void getAllHeadersPrint() 
-	{
+	  public void getAllHeadersPrint() {
+	
 		//Specify base URI
 		RestAssured.baseURI ="https://reqres.in";
 		

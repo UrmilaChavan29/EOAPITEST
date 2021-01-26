@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="7" passed="2" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-26T09:44:17 GMT" name="Suite" finished-at="2021-01-26T09:44:22 GMT" duration-ms="5191">
+  <suite started-at="2021-01-26T13:25:22 GMT" name="Suite" finished-at="2021-01-26T13:25:26 GMT" duration-ms="4178">
     <groups>
     </groups>
-    <test started-at="2021-01-26T09:44:17 GMT" name="EOAPITest" finished-at="2021-01-26T09:44:22 GMT" duration-ms="5191">
+    <test started-at="2021-01-26T13:25:22 GMT" name="EOAPITest" finished-at="2021-01-26T13:25:26 GMT" duration-ms="4178">
       <class name="com.eo.tests.PostNewUser">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.eo.tests.PostNewUser@19d481b]" started-at="2021-01-26T09:44:21 GMT" name="setUp" finished-at="2021-01-26T09:44:21 GMT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.eo.tests.PostNewUser@19d481b]" started-at="2021-01-26T13:25:26 GMT" name="setUp" finished-at="2021-01-26T13:25:26 GMT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="createNewUser_TC004(java.lang.String, java.lang.String)[pri:0, instance:com.eo.tests.PostNewUser@19d481b]" started-at="2021-01-26T09:44:21 GMT" name="createNewUser_TC004" data-provider="getUserData" finished-at="2021-01-26T09:44:21 GMT" duration-ms="405" status="PASS">
+        <test-method signature="createNewUser_TC004(java.lang.String, java.lang.String)[pri:0, instance:com.eo.tests.PostNewUser@19d481b]" started-at="2021-01-26T13:25:26 GMT" name="createNewUser_TC004" data-provider="getUserData" finished-at="2021-01-26T13:25:26 GMT" duration-ms="225" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewUser_TC004 -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.eo.tests.PostNewUser@19d481b]" started-at="2021-01-26T09:44:21 GMT" name="setUp" finished-at="2021-01-26T09:44:21 GMT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.eo.tests.PostNewUser@19d481b]" started-at="2021-01-26T13:25:26 GMT" name="setUp" finished-at="2021-01-26T13:25:26 GMT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="createNewUserIncorrectEP_TC005()[pri:1, instance:com.eo.tests.PostNewUser@19d481b]" started-at="2021-01-26T09:44:21 GMT" name="createNewUserIncorrectEP_TC005" finished-at="2021-01-26T09:44:21 GMT" duration-ms="320" status="FAIL">
+        <test-method signature="createNewUserIncorrectEP_TC005()[pri:1, instance:com.eo.tests.PostNewUser@19d481b]" started-at="2021-01-26T13:25:26 GMT" name="createNewUserIncorrectEP_TC005" finished-at="2021-01-26T13:25:26 GMT" duration-ms="165" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [201] but found [404]]]>
@@ -44,7 +44,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:907)
 at org.testng.Assert.assertEquals(Assert.java:917)
-at com.eo.tests.PostNewUser.createNewUserIncorrectEP_TC005(PostNewUser.java:78)
+at com.eo.tests.PostNewUser.createNewUserIncorrectEP_TC005(PostNewUser.java:81)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -83,7 +83,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewUserIncorrectEP_TC005 -->
-        <test-method signature="createNewUserIncorrectParamValuesInteger_TC006()[pri:2, instance:com.eo.tests.PostNewUser@19d481b]" started-at="2021-01-26T09:44:21 GMT" name="createNewUserIncorrectParamValuesInteger_TC006" finished-at="2021-01-26T09:44:22 GMT" duration-ms="285" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.eo.tests.PostNewUser@19d481b]" started-at="2021-01-26T13:25:26 GMT" name="setUp" finished-at="2021-01-26T13:25:26 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createNewUserIncorrectParamValuesInteger_TC006()[pri:2, instance:com.eo.tests.PostNewUser@19d481b]" started-at="2021-01-26T13:25:26 GMT" name="createNewUserIncorrectParamValuesInteger_TC006" finished-at="2021-01-26T13:25:26 GMT" duration-ms="209" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [201] but found [400]]]>
@@ -96,7 +100,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:907)
 at org.testng.Assert.assertEquals(Assert.java:917)
-at com.eo.tests.PostNewUser.createNewUserIncorrectParamValuesInteger_TC006(PostNewUser.java:102)
+at com.eo.tests.PostNewUser.createNewUserIncorrectParamValuesInteger_TC006(PostNewUser.java:105)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -135,15 +139,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewUserIncorrectParamValuesInteger_TC006 -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.eo.tests.PostNewUser@19d481b]" started-at="2021-01-26T09:44:21 GMT" name="setUp" finished-at="2021-01-26T09:44:21 GMT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.eo.tests.PostNewUser@19d481b]" started-at="2021-01-26T13:25:26 GMT" name="setUp" finished-at="2021-01-26T13:25:26 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.eo.tests.PostNewUser@19d481b]" started-at="2021-01-26T09:44:22 GMT" name="setUp" finished-at="2021-01-26T09:44:22 GMT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="createNewUserIncorrectParamValuesSpecChar_TC007()[pri:3, instance:com.eo.tests.PostNewUser@19d481b]" started-at="2021-01-26T09:44:22 GMT" name="createNewUserIncorrectParamValuesSpecChar_TC007" finished-at="2021-01-26T09:44:22 GMT" duration-ms="238" status="FAIL">
+        <test-method signature="createNewUserIncorrectParamValuesSpecChar_TC007()[pri:3, instance:com.eo.tests.PostNewUser@19d481b]" started-at="2021-01-26T13:25:26 GMT" name="createNewUserIncorrectParamValuesSpecChar_TC007" finished-at="2021-01-26T13:25:26 GMT" duration-ms="128" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [201] but found [400]]]>
@@ -156,7 +156,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:907)
 at org.testng.Assert.assertEquals(Assert.java:917)
-at com.eo.tests.PostNewUser.createNewUserIncorrectParamValuesSpecChar_TC007(PostNewUser.java:128)
+at com.eo.tests.PostNewUser.createNewUserIncorrectParamValuesSpecChar_TC007(PostNewUser.java:131)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -197,19 +197,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
         </test-method> <!-- createNewUserIncorrectParamValuesSpecChar_TC007 -->
       </class> <!-- com.eo.tests.PostNewUser -->
       <class name="com.eo.tests.GetUsers">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.eo.tests.GetUsers@51f116b8]" started-at="2021-01-26T09:44:17 GMT" name="setUp" finished-at="2021-01-26T09:44:18 GMT" duration-ms="793" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.eo.tests.GetUsers@51f116b8]" started-at="2021-01-26T13:25:22 GMT" name="setUp" finished-at="2021-01-26T13:25:23 GMT" duration-ms="785" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getUsersValidEP_TC001()[pri:0, instance:com.eo.tests.GetUsers@51f116b8]" started-at="2021-01-26T09:44:18 GMT" name="getUsersValidEP_TC001" finished-at="2021-01-26T09:44:20 GMT" duration-ms="2487" status="PASS">
+        <test-method signature="getUsersValidEP_TC001()[pri:0, instance:com.eo.tests.GetUsers@51f116b8]" started-at="2021-01-26T13:25:23 GMT" name="getUsersValidEP_TC001" finished-at="2021-01-26T13:25:25 GMT" duration-ms="2379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUsersValidEP_TC001 -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.eo.tests.GetUsers@51f116b8]" started-at="2021-01-26T09:44:20 GMT" name="setUp" finished-at="2021-01-26T09:44:20 GMT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.eo.tests.GetUsers@51f116b8]" started-at="2021-01-26T13:25:25 GMT" name="setUp" finished-at="2021-01-26T13:25:25 GMT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getUsersCount_TC002()[pri:1, instance:com.eo.tests.GetUsers@51f116b8]" started-at="2021-01-26T09:44:20 GMT" name="getUsersCount_TC002" finished-at="2021-01-26T09:44:20 GMT" duration-ms="314" status="FAIL">
+        <test-method signature="getUsersCount_TC002()[pri:1, instance:com.eo.tests.GetUsers@51f116b8]" started-at="2021-01-26T13:25:25 GMT" name="getUsersCount_TC002" finished-at="2021-01-26T13:25:26 GMT" duration-ms="130" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [6] but found [12]]]>
@@ -222,7 +222,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:907)
 at org.testng.Assert.assertEquals(Assert.java:917)
-at com.eo.tests.GetUsers.getUsersCount_TC002(GetUsers.java:72)
+at com.eo.tests.GetUsers.getUsersCount_TC002(GetUsers.java:79)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -261,11 +261,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUsersCount_TC002 -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.eo.tests.GetUsers@51f116b8]" started-at="2021-01-26T09:44:20 GMT" name="setUp" finished-at="2021-01-26T09:44:20 GMT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.eo.tests.GetUsers@51f116b8]" started-at="2021-01-26T13:25:26 GMT" name="setUp" finished-at="2021-01-26T13:25:26 GMT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getUsersIncorrectEP_TC003()[pri:2, instance:com.eo.tests.GetUsers@51f116b8]" started-at="2021-01-26T09:44:20 GMT" name="getUsersIncorrectEP_TC003" finished-at="2021-01-26T09:44:21 GMT" duration-ms="288" status="FAIL">
+        <test-method signature="getUsersIncorrectEP_TC003()[pri:2, instance:com.eo.tests.GetUsers@51f116b8]" started-at="2021-01-26T13:25:26 GMT" name="getUsersIncorrectEP_TC003" finished-at="2021-01-26T13:25:26 GMT" duration-ms="94" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [200] but found [404]]]>
@@ -278,7 +278,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:907)
 at org.testng.Assert.assertEquals(Assert.java:917)
-at com.eo.tests.GetUsers.getUsersIncorrectEP_TC003(GetUsers.java:86)
+at com.eo.tests.GetUsers.getUsersIncorrectEP_TC003(GetUsers.java:93)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

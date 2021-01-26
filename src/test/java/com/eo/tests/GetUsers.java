@@ -14,17 +14,17 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 
-public class GetUsers {
-	
+public class GetUsers {	
 	@BeforeMethod
-	public void setUp() {			
+	public void setUp() 
+	{			
 		//Specify base URI
 		RestAssured.baseURI ="https://reqres.in";
-		}
+	}
 	
 	@Test(priority=0)
-	  public void getUsersValidEP_TC001() {
-				
+	public void getUsersValidEP_TC001() 
+	{				
 		//Request Object
 		RequestSpecification httpRequest=RestAssured.given();
 		
@@ -67,22 +67,21 @@ public class GetUsers {
 		RequestSpecification httpRequest=RestAssured.given();
 		//Response object
 		Response response=httpRequest.request(Method.GET, "/api/users");
-		
 		JsonPath jsonPathEvaluator = response.jsonPath();
-	
+		//list all objects
 		List<Integer> allIds = jsonPathEvaluator.getList("data.id");
-		System.out.println(allIds.size());
-		
+		System.out.println(allIds.size());	
 		for(int id:allIds) {
 			System.out.println("Id present:"+ id);
 		}
 		Assert.assertEquals(12, allIds.size());
 		System.out.println("Total users count should be 12");
-		//
+		//Verify status code response
 		int statusCode=response.getStatusCode();
 		System.out.println("Status code: " + statusCode);
 		Assert.assertEquals(404, statusCode);
 	}
+	
 	@Test(priority=2)
 	  public void getUsersIncorrectEP_TC003() {
 		RequestSpecification httpRequest=RestAssured.given();

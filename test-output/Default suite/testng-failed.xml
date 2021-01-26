@@ -5,9 +5,8 @@
     <classes>
       <class name="com.eo.tests.PostNewUser">
         <methods>
+          <include name="createNewUserIncorrectParamValues_TC006_007" invocation-numbers="0 1"/>
           <include name="createNewUserIncorrectEP_TC005"/>
-          <include name="createNewUserIncorrectParamValuesInteger_TC006"/>
-          <include name="createNewUserIncorrectParamValuesSpecChar_TC007"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.eo.tests.PostNewUser -->

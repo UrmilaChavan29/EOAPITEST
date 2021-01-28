@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.eo.tests.PostNewUser">
+      <class name="com.eo.tests.GetUsers">
         <methods>
-          <include name="createNewUserIncorrectParamValues_TC006_007" invocation-numbers="0 1"/>
-          <include name="createNewUserIncorrectEP_TC005"/>
           <include name="setUp"/>
+          <include name="getUsersCount_TC002"/>
+          <include name="getUsersIncorrectEP_TC003"/>
         </methods>
-      </class> <!-- com.eo.tests.PostNewUser -->
+      </class> <!-- com.eo.tests.GetUsers -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

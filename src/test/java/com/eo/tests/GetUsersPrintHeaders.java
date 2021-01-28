@@ -26,7 +26,7 @@ public class GetUsersPrintHeaders {
 		//verify status code
 		int statusCode=response.getStatusCode();
 		System.out.println("Status code: " + statusCode);
-		Assert.assertEquals(200, statusCode);
+		Assert.assertEquals(statusCode, 200);
 		//Capture all headers from response
 		Headers allHeaders=response.headers();
 		for (Header header:allHeaders) {

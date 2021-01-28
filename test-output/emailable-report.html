@@ -9,22 +9,22 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">3</td><td class="num">5,776</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">3</td><td class="num">6,333</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.eo.tests.PostNewUser</td><td><a href="#m0">createNewUserIncorrectEP_TC005</a></td><td rowspan="1">1611676568623</td><td rowspan="1">257</td></tr><tr class="failedeven"><td><a href="#m1">createNewUserIncorrectParamValues_TC006_007</a></td><td rowspan="2">1611676568883</td><td rowspan="2">542</td></tr><tr class="failedeven"><td><a href="#m2">createNewUserIncorrectParamValues_TC006_007</a></td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.eo.tests.PostNewUser</td><td><a href="#m3">createNewUser_TC004</a></td><td rowspan="3">1611676565159</td><td rowspan="3">2529</td></tr><tr class="passedeven"><td><a href="#m4">createNewUser_TC004</a></td></tr><tr class="passedeven"><td><a href="#m5">createNewUser_TC004</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.eo.tests.PostNewUser</td><td><a href="#m0">createNewUserIncorrectEP_TC005</a></td><td rowspan="1">1611850577800</td><td rowspan="1">173</td></tr><tr class="failedeven"><td><a href="#m1">createNewUserIncorrectParamValues_TC006_007</a></td><td rowspan="2">1611850577976</td><td rowspan="2">162</td></tr><tr class="failedeven"><td><a href="#m2">createNewUserIncorrectParamValues_TC006_007</a></td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.eo.tests.PostNewUser</td><td><a href="#m3">createNewUser_TC004</a></td><td rowspan="3">1611850574047</td><td rowspan="3">3169</td></tr><tr class="passedeven"><td><a href="#m4">createNewUser_TC004</a></td></tr><tr class="passedeven"><td><a href="#m5">createNewUser_TC004</a></td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.eo.tests.PostNewUser#createNewUserIncorrectEP_TC005</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [201] but found [404]
+<h2>Default test</h2><h3 id="m0">com.eo.tests.PostNewUser#createNewUserIncorrectEP_TC005</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [404] but found [201]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 	at org.testng.Assert.assertEquals(Assert.java:118)
 	at org.testng.Assert.assertEquals(Assert.java:652)
 	at org.testng.Assert.assertEquals(Assert.java:662)
-	at com.eo.tests.PostNewUser.createNewUserIncorrectEP_TC005(PostNewUser.java:66)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.eo.tests.PostNewUser.createNewUserIncorrectEP_TC005(PostNewUser.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
@@ -47,18 +47,18 @@
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.eo.tests.PostNewUser#createNewUserIncorrectParamValues_TC006_007</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>123</td><td>456</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [201] but found [400]
+<h3 id="m1">com.eo.tests.PostNewUser#createNewUserIncorrectParamValues_TC006_007</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>123</td><td>456</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [400] but found [201]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 	at org.testng.Assert.assertEquals(Assert.java:118)
 	at org.testng.Assert.assertEquals(Assert.java:652)
 	at org.testng.Assert.assertEquals(Assert.java:662)
-	at com.eo.tests.PostNewUser.createNewUserIncorrectParamValues_TC006_007(PostNewUser.java:84)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.eo.tests.PostNewUser.createNewUserIncorrectParamValues_TC006_007(PostNewUser.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
@@ -81,18 +81,18 @@
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.eo.tests.PostNewUser#createNewUserIncorrectParamValues_TC006_007</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>$%*</td><td>@&amp;^</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [201] but found [400]
+<h3 id="m2">com.eo.tests.PostNewUser#createNewUserIncorrectParamValues_TC006_007</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>$%*</td><td>@&amp;^</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [400] but found [201]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 	at org.testng.Assert.assertEquals(Assert.java:118)
 	at org.testng.Assert.assertEquals(Assert.java:652)
 	at org.testng.Assert.assertEquals(Assert.java:662)
-	at com.eo.tests.PostNewUser.createNewUserIncorrectParamValues_TC006_007(PostNewUser.java:84)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.eo.tests.PostNewUser.createNewUserIncorrectParamValues_TC006_007(PostNewUser.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
@@ -116,7 +116,7 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">com.eo.tests.PostNewUser#createNewUser_TC004</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>xyz</td><td>tester</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.eo.tests.PostNewUser#createNewUser_TC004</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Sachin</td><td>Developer</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.eo.tests.PostNewUser#createNewUser_TC004</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Nilesh</td><td>Admin</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.eo.tests.PostNewUser#createNewUser_TC004</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>123</td><td>tester</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.eo.tests.PostNewUser#createNewUser_TC004</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Urmila</td><td>tester</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

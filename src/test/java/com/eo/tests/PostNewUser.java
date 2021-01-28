@@ -1,11 +1,16 @@
 package com.eo.tests;
 
 
+import java.io.IOException;
+
 import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import com.eo.util.XUtility;
+
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.response.Response;
@@ -63,7 +68,7 @@ public class PostNewUser {
 		//verify status code
 		int statusCode=response.getStatusCode();
 		System.out.println("Status code: " + statusCode);
-		Assert.assertEquals(404, statusCode);					
+		Assert.assertEquals(statusCode, 404);					
 	}
 	
 	@Test (priority=2, dataProvider="getUserData_TC006")
@@ -81,39 +86,46 @@ public class PostNewUser {
 		//verify status code
 		int statusCode=response.getStatusCode();
 		System.out.println("Status code: " + statusCode);
-		Assert.assertEquals(400, statusCode);
+		Assert.assertEquals(statusCode, 400);
 		//verify id not generated for data
 		String idValue=response.jsonPath().get("id");
 		Assert.assertNull(idValue);			
 	}
 	
-	@DataProvider	
-	//Using DataProvider hard code the values here
-		String[][] getUserData_TC004(){
-		String userData[][]=  {{"xyz","tester"},{"Sachin","Developer"},{"Nilesh","Admin"}};
-		return userData;
+	//Read data from excel
+	@DataProvider ()
+		String [][] getUserData_TC004() throws IOException {
+		String path="C:/Users/Asus/workspace/RestAssuredAPITestEO/src/main/java/com/eo/util/DataUtil.xlsx";
+		System.out.println("File Path = "+ path);
+		int rownum=XUtility.getRowCount(path, "Sheet1");
+		System.out.println(rownum);
+		int columncount=XUtility.getCellCount(path, "Sheet1", 1);
+		System.out.println(columncount);
+		
+		String data[][]=new String[rownum][columncount];
+		for(int i=1; i<=rownum; i++) {			
+			for(int j=0; j< columncount; j++) {			
+				data[i-1][j]=XUtility.getCellData(path, "Sheet1",i,j);
+				System.out.println(XUtility.getCellData(path, "Sheet1",i,j));
+			}
 		}
+		return data;
+	}
+	
 	@DataProvider	
 	Object[][] getUserData_TC006(){
 		Object data[][]=  {{123,456},{"$%*", "@&^"}};
 		return data;
 		}
-	//Read data from excel
-	/* 
-		String [][] getUserDa() throws IOException {
-		String path="C:/Users/Asus/workspace/RestAssuredAPITestEO/src/main/java/com/eo/util/DataUtil.xlsx";
-		System.out.println("File Path = "+ path);
-		int rownum=XLUtils.getRowCount(path, "Sheet1");
-		int columncount=XLUtils.getCellCount(path, "Sheet1", 1);
-		
-		String data[][]=new String[rownum][columncount];
-		for(int i=0; i<=rownum; i++) {
-			for(int j=0; j< columncount; j++) {
-				data[i-1][j]=XLUtils.getCellData(path, "Sheet1", i, j);
-			}
+	
+	/*
+	  //Using DataProvider hard code the values here
+	@DataProvider	
+		String[][] getUserData_TC004(){
+		String userData[][]=  {{"xyz","tester"},{"Sachin","Developer"},{"Nilesh","Admin"}};
+		return userData;
 		}
-		return data;
+		*/
 		
-	}
-	*/
+	
 }

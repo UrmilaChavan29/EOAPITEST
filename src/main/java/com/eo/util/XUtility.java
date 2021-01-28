@@ -9,18 +9,22 @@ import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class XUtility {
 	  public static FileInputStream fi;
 	    public static FileOutputStream fo;
-	    public static HSSFWorkbook wb;
-	    public static HSSFSheet ws;
-	    public static HSSFRow row;
-	    public static HSSFCell cell;
+	    public static XSSFWorkbook wb;
+	    public static XSSFSheet ws;
+	    public static XSSFRow row;
+	    public static XSSFCell cell;
 
 	    public static int getRowCount(String xlFile, String xlSheet) throws IOException {
 	        fi = new FileInputStream(xlFile);
-	        wb = new HSSFWorkbook(fi);
+	        wb = new XSSFWorkbook(fi);
 	        ws = wb.getSheet(xlSheet);
 	        int rowCount = ws.getLastRowNum();
 	        wb.close();
@@ -30,7 +34,7 @@ public class XUtility {
 
 	    public static int getCellCount(String xlFile, String xlSheet, int rowNum) throws IOException{
 	        fi = new FileInputStream(xlFile);
-	        wb = new HSSFWorkbook(fi);
+	        wb = new XSSFWorkbook(fi);
 	        ws = wb.getSheet(xlSheet);
 	        row = ws.getRow(rowNum);
 	        int columnCount = row.getLastCellNum();
@@ -41,7 +45,7 @@ public class XUtility {
 
 	    public static String getCellData(String xlFile, String xlSheet, int rowNum, int columnNum) throws IOException{
 	        fi = new FileInputStream(xlFile);
-	        wb = new HSSFWorkbook(fi);
+	        wb = new XSSFWorkbook(fi);
 	        ws = wb.getSheet(xlSheet);
 	        row = ws.getRow(rowNum);
 	        cell = row.getCell(columnNum);
@@ -59,7 +63,7 @@ public class XUtility {
 
 	    public static void setCellData(String xlFile, String xlSheet, int rowNum, int columnNum, String data) throws IOException {
 	        fi = new FileInputStream(xlFile);
-	        wb = new HSSFWorkbook(fi);
+	        wb = new XSSFWorkbook(fi);
 	        ws = wb.getSheet(xlSheet);
 	        row = ws.getRow(rowNum);
 	        cell = row.createCell(columnNum);

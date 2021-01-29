@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3080" started-at="2021-01-28T16:25:07Z" finished-at="2021-01-28T16:25:10Z">
+  <suite name="Default suite" duration-ms="2920" started-at="2021-01-29T18:58:45Z" finished-at="2021-01-29T18:58:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3080" started-at="2021-01-28T16:25:07Z" finished-at="2021-01-28T16:25:10Z">
+    <test name="Default test" duration-ms="2920" started-at="2021-01-29T18:58:45Z" finished-at="2021-01-29T18:58:48Z">
       <class name="com.eo.tests.GetUsersPrintHeaders">
-        <test-method status="PASS" signature="getAllHeadersPrint()[pri:0, instance:com.eo.tests.GetUsersPrintHeaders@6321e813]" name="getAllHeadersPrint" duration-ms="3047" started-at="2021-01-28T16:25:07Z" finished-at="2021-01-28T16:25:10Z">
+        <test-method status="PASS" signature="getAllHeadersPrint()[pri:0, instance:com.eo.tests.GetUsersPrintHeaders@6497b078]" name="getAllHeadersPrint" duration-ms="2899" started-at="2021-01-29T18:58:45Z" finished-at="2021-01-29T18:58:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllHeadersPrint -->

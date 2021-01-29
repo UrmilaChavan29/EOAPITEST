@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.eo.tests.GetUsers">
+      <class name="com.eo.tests.GetUsersPrintHeaders">
         <methods>
-          <include name="setUp"/>
-          <include name="getUsersCount_TC002"/>
-          <include name="getUsersIncorrectEP_TC003"/>
+          <include name="setup"/>
+          <include name="getAllHeadersPrint"/>
         </methods>
-      </class> <!-- com.eo.tests.GetUsers -->
+      </class> <!-- com.eo.tests.GetUsersPrintHeaders -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

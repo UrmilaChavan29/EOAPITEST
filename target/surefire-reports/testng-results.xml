@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="5" ignored="0" total="9" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="6893" started-at="2021-01-29T18:59:03 GMT" finished-at="2021-01-29T18:59:10 GMT">
+  <suite name="Suite" duration-ms="6960" started-at="2021-01-30T23:12:58 GMT" finished-at="2021-01-30T23:13:05 GMT">
     <groups>
     </groups>
-    <test name="EOAPITest" duration-ms="6893" started-at="2021-01-29T18:59:03 GMT" finished-at="2021-01-29T18:59:10 GMT">
+    <test name="EOAPITest" duration-ms="6960" started-at="2021-01-30T23:12:58 GMT" finished-at="2021-01-30T23:13:05 GMT">
       <class name="com.eo.tests.PostNewUser">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.eo.tests.PostNewUser@2525ff7e]" name="setUp" is-config="true" duration-ms="0" started-at="2021-01-29T18:59:08 GMT" finished-at="2021-01-29T18:59:08 GMT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.eo.tests.PostNewUser@2525ff7e]" name="setUp" is-config="true" duration-ms="1" started-at="2021-01-30T23:13:04 GMT" finished-at="2021-01-30T23:13:04 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createNewUser_TC004(java.lang.String, java.lang.String)[pri:0, instance:com.eo.tests.PostNewUser@2525ff7e]" name="createNewUser_TC004" duration-ms="282" started-at="2021-01-29T18:59:08 GMT" data-provider="getUserData_TC004" finished-at="2021-01-29T18:59:08 GMT">
+        <test-method status="PASS" signature="createNewUser_TC004(java.lang.String, java.lang.String)[pri:0, instance:com.eo.tests.PostNewUser@2525ff7e]" name="createNewUser_TC004" duration-ms="246" started-at="2021-01-30T23:13:04 GMT" data-provider="getUserData_TC004" finished-at="2021-01-30T23:13:04 GMT">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewUser_TC004 -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.eo.tests.PostNewUser@2525ff7e]" name="setUp" is-config="true" duration-ms="1" started-at="2021-01-29T18:59:08 GMT" finished-at="2021-01-29T18:59:08 GMT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.eo.tests.PostNewUser@2525ff7e]" name="setUp" is-config="true" duration-ms="1" started-at="2021-01-30T23:13:04 GMT" finished-at="2021-01-30T23:13:04 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createNewUser_TC004(java.lang.String, java.lang.String)[pri:0, instance:com.eo.tests.PostNewUser@2525ff7e]" name="createNewUser_TC004" duration-ms="202" started-at="2021-01-29T18:59:08 GMT" data-provider="getUserData_TC004" finished-at="2021-01-29T18:59:08 GMT">
+        <test-method status="PASS" signature="createNewUser_TC004(java.lang.String, java.lang.String)[pri:0, instance:com.eo.tests.PostNewUser@2525ff7e]" name="createNewUser_TC004" duration-ms="198" started-at="2021-01-30T23:13:04 GMT" data-provider="getUserData_TC004" finished-at="2021-01-30T23:13:04 GMT">
           <params>
             <param index="0">
               <value>
@@ -47,11 +47,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewUser_TC004 -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.eo.tests.PostNewUser@2525ff7e]" name="setUp" is-config="true" duration-ms="0" started-at="2021-01-29T18:59:08 GMT" finished-at="2021-01-29T18:59:08 GMT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.eo.tests.PostNewUser@2525ff7e]" name="setUp" is-config="true" duration-ms="0" started-at="2021-01-30T23:13:04 GMT" finished-at="2021-01-30T23:13:04 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createNewUser_TC004(java.lang.String, java.lang.String)[pri:0, instance:com.eo.tests.PostNewUser@2525ff7e]" name="createNewUser_TC004" duration-ms="942" started-at="2021-01-29T18:59:08 GMT" data-provider="getUserData_TC004" finished-at="2021-01-29T18:59:09 GMT">
+        <test-method status="PASS" signature="createNewUser_TC004(java.lang.String, java.lang.String)[pri:0, instance:com.eo.tests.PostNewUser@2525ff7e]" name="createNewUser_TC004" duration-ms="182" started-at="2021-01-30T23:13:04 GMT" data-provider="getUserData_TC004" finished-at="2021-01-30T23:13:04 GMT">
           <params>
             <param index="0">
               <value>
@@ -67,11 +67,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewUser_TC004 -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.eo.tests.PostNewUser@2525ff7e]" name="setUp" is-config="true" duration-ms="1" started-at="2021-01-29T18:59:09 GMT" finished-at="2021-01-29T18:59:09 GMT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.eo.tests.PostNewUser@2525ff7e]" name="setUp" is-config="true" duration-ms="2" started-at="2021-01-30T23:13:04 GMT" finished-at="2021-01-30T23:13:04 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="createNewUserIncorrectEP_TC005()[pri:1, instance:com.eo.tests.PostNewUser@2525ff7e]" name="createNewUserIncorrectEP_TC005" duration-ms="138" started-at="2021-01-29T18:59:09 GMT" finished-at="2021-01-29T18:59:10 GMT">
+        <test-method status="FAIL" signature="createNewUserIncorrectEP_TC005()[pri:1, instance:com.eo.tests.PostNewUser@2525ff7e]" name="createNewUserIncorrectEP_TC005" duration-ms="347" started-at="2021-01-30T23:13:04 GMT" finished-at="2021-01-30T23:13:05 GMT">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [404] but found [201]]]>
@@ -123,11 +123,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewUserIncorrectEP_TC005 -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.eo.tests.PostNewUser@2525ff7e]" name="setUp" is-config="true" duration-ms="0" started-at="2021-01-29T18:59:10 GMT" finished-at="2021-01-29T18:59:10 GMT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.eo.tests.PostNewUser@2525ff7e]" name="setUp" is-config="true" duration-ms="1" started-at="2021-01-30T23:13:05 GMT" finished-at="2021-01-30T23:13:05 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="createNewUserIncorrectParamValues_TC006_007(java.lang.Object, java.lang.Object)[pri:2, instance:com.eo.tests.PostNewUser@2525ff7e]" name="createNewUserIncorrectParamValues_TC006_007" duration-ms="144" started-at="2021-01-29T18:59:10 GMT" data-provider="getUserData_TC006" finished-at="2021-01-29T18:59:10 GMT">
+        <test-method status="FAIL" signature="createNewUserIncorrectParamValues_TC006_007(java.lang.Object, java.lang.Object)[pri:2, instance:com.eo.tests.PostNewUser@2525ff7e]" name="createNewUserIncorrectParamValues_TC006_007" duration-ms="145" started-at="2021-01-30T23:13:05 GMT" data-provider="getUserData_TC006" finished-at="2021-01-30T23:13:05 GMT">
           <params>
             <param index="0">
               <value>
@@ -191,11 +191,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewUserIncorrectParamValues_TC006_007 -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.eo.tests.PostNewUser@2525ff7e]" name="setUp" is-config="true" duration-ms="1" started-at="2021-01-29T18:59:10 GMT" finished-at="2021-01-29T18:59:10 GMT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.eo.tests.PostNewUser@2525ff7e]" name="setUp" is-config="true" duration-ms="0" started-at="2021-01-30T23:13:05 GMT" finished-at="2021-01-30T23:13:05 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="createNewUserIncorrectParamValues_TC006_007(java.lang.Object, java.lang.Object)[pri:2, instance:com.eo.tests.PostNewUser@2525ff7e]" name="createNewUserIncorrectParamValues_TC006_007" duration-ms="137" started-at="2021-01-29T18:59:10 GMT" data-provider="getUserData_TC006" finished-at="2021-01-29T18:59:10 GMT">
+        <test-method status="FAIL" signature="createNewUserIncorrectParamValues_TC006_007(java.lang.Object, java.lang.Object)[pri:2, instance:com.eo.tests.PostNewUser@2525ff7e]" name="createNewUserIncorrectParamValues_TC006_007" duration-ms="344" started-at="2021-01-30T23:13:05 GMT" data-provider="getUserData_TC006" finished-at="2021-01-30T23:13:05 GMT">
           <params>
             <param index="0">
               <value>
@@ -261,15 +261,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
         </test-method> <!-- createNewUserIncorrectParamValues_TC006_007 -->
       </class> <!-- com.eo.tests.PostNewUser -->
       <class name="com.eo.tests.GetUsers">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.eo.tests.GetUsers@61d6015a]" name="setUp" is-config="true" duration-ms="495" started-at="2021-01-29T18:59:03 GMT" finished-at="2021-01-29T18:59:03 GMT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.eo.tests.GetUsers@61d6015a]" name="setUp" is-config="true" duration-ms="495" started-at="2021-01-30T23:12:58 GMT" finished-at="2021-01-30T23:12:59 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getUsersValidEP_TC001()[pri:0, instance:com.eo.tests.GetUsers@61d6015a]" name="getUsersValidEP_TC001" duration-ms="3039" started-at="2021-01-29T18:59:03 GMT" finished-at="2021-01-29T18:59:07 GMT">
+        <test-method status="PASS" signature="getUsersValidEP_TC001()[pri:0, instance:com.eo.tests.GetUsers@61d6015a]" name="getUsersValidEP_TC001" duration-ms="3206" started-at="2021-01-30T23:12:59 GMT" finished-at="2021-01-30T23:13:02 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUsersValidEP_TC001 -->
-        <test-method status="FAIL" signature="getUsersCount_TC002()[pri:1, instance:com.eo.tests.GetUsers@61d6015a]" name="getUsersCount_TC002" duration-ms="138" started-at="2021-01-29T18:59:07 GMT" finished-at="2021-01-29T18:59:07 GMT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.eo.tests.GetUsers@61d6015a]" name="setUp" is-config="true" duration-ms="1" started-at="2021-01-30T23:13:02 GMT" finished-at="2021-01-30T23:13:02 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="getUsersCount_TC002()[pri:1, instance:com.eo.tests.GetUsers@61d6015a]" name="getUsersCount_TC002" duration-ms="205" started-at="2021-01-30T23:13:02 GMT" finished-at="2021-01-30T23:13:02 GMT">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [12] but found [6]]]>
@@ -321,15 +325,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUsersCount_TC002 -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.eo.tests.GetUsers@61d6015a]" name="setUp" is-config="true" duration-ms="0" started-at="2021-01-29T18:59:07 GMT" finished-at="2021-01-29T18:59:07 GMT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.eo.tests.GetUsers@61d6015a]" name="setUp" is-config="true" duration-ms="1" started-at="2021-01-30T23:13:02 GMT" finished-at="2021-01-30T23:13:02 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.eo.tests.GetUsers@61d6015a]" name="setUp" is-config="true" duration-ms="2" started-at="2021-01-29T18:59:07 GMT" finished-at="2021-01-29T18:59:07 GMT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="getUsersIncorrectEP_TC003()[pri:2, instance:com.eo.tests.GetUsers@61d6015a]" name="getUsersIncorrectEP_TC003" duration-ms="111" started-at="2021-01-29T18:59:07 GMT" finished-at="2021-01-29T18:59:07 GMT">
+        <test-method status="FAIL" signature="getUsersIncorrectEP_TC003()[pri:2, instance:com.eo.tests.GetUsers@61d6015a]" name="getUsersIncorrectEP_TC003" duration-ms="305" started-at="2021-01-30T23:13:02 GMT" finished-at="2021-01-30T23:13:02 GMT">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [404] but found [200]]]>

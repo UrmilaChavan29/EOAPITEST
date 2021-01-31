@@ -1,5 +1,4 @@
-# EO-API-TEST
-Technical
+# EOAPITEST
 
 Test cases are available in excel file here https://github.com/UrmilaChavan29/EOAPITEST/blob/master/src/main/java/com/eo/util/DataUtil.xlsx
 

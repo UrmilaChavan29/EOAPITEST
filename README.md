@@ -12,7 +12,7 @@ Next Generation Java Testing introduces breakthrough Java testing techniques and
  The Eclipse Foundation provides our global community of individuals and organisations with a mature, scalable, and business-friendly environment for open source software collaboration and innovation. https://www.eclipse.org/
  
 # Clone the repository:
-###From command prompt/terminal to your machine:
+### From command prompt/terminal to your machine:
 To clone this repository type this command in cmd :
  git clone https://github.com/UrmilaChavan29/EOAPITEST.git
 
@@ -22,26 +22,37 @@ Eclipse=>Windows=>Show view=>Other=>Git=>Git Repositories=>Clone Repository=>Giv
 
 # Routes Tested
 The following HTTP methods are tested:
-•	GET
+
+•	GET 
+
 •	POST
 
 # Integrated Development Environment
 Eclipse IDE is used to develop this Framework.
 
 # Run Tests from Eclipse
+
 •	Open file in Eclipse: ..\ RestAssuredAPITestEO\src\test\java
+
 •	Right click => Run As=> TestNG Test
 OR
+
 •	Open file in Eclipse: ..\ RestAssuredAPITestEO\pom.xml
+
 •	Right click => Run As=> Maven test
 
 # Run Tests with Command Prompt/Windows PowerShell
+
 •	Open Folder in File Explorer:  ..\RestAssuredAPITestEO (where you have the "pom.xml" file)
+
 •	Open Command Prompt/Windows PowerShell
+
 •	Run "mvn clean test"
 
 # Notes ('mvn' is not recognized as an internal or external command)
+
 •	Download "apache-maven-3.6.3-bin.tar.gz" from "https://maven.apache.org/download.cgi#"
+
 •	Set the Environment Variables
 
 # Test cases are available in excel file here

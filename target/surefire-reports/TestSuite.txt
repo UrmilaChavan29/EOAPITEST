@@ -1,24 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 9.072 s <<< FAILURE! - in TestSuite
-com.eo.tests.GetUsers.getUsersCount_TC002  Time elapsed: 0.209 s  <<< FAILURE!
+Tests run: 9, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 8.475 s <<< FAILURE! - in TestSuite
+com.eo.tests.GetUsers.getUsersCount_TC002  Time elapsed: 0.206 s  <<< FAILURE!
 java.lang.AssertionError: expected [12] but found [6]
 	at com.eo.tests.GetUsers.getUsersCount_TC002(GetUsers.java:77)
 
-com.eo.tests.GetUsers.getUsersIncorrectEP_TC003  Time elapsed: 0.303 s  <<< FAILURE!
+com.eo.tests.GetUsers.getUsersIncorrectEP_TC003  Time elapsed: 0.134 s  <<< FAILURE!
 java.lang.AssertionError: expected [404] but found [200]
 	at com.eo.tests.GetUsers.getUsersIncorrectEP_TC003(GetUsers.java:93)
 
-com.eo.tests.PostNewUser.createNewUserIncorrectEP_TC005  Time elapsed: 0.361 s  <<< FAILURE!
+com.eo.tests.PostNewUser.createNewUserIncorrectEP_TC005  Time elapsed: 0.169 s  <<< FAILURE!
 java.lang.AssertionError: expected [404] but found [201]
 	at com.eo.tests.PostNewUser.createNewUserIncorrectEP_TC005(PostNewUser.java:82)
 
-com.eo.tests.PostNewUser.createNewUserIncorrectParamValues_TC006_007[123, 456](1)  Time elapsed: 0.134 s  <<< FAILURE!
+com.eo.tests.PostNewUser.createNewUserIncorrectParamValues_TC006_007[123, 456](1)  Time elapsed: 0.133 s  <<< FAILURE!
 java.lang.AssertionError: expected [400] but found [201]
 	at com.eo.tests.PostNewUser.createNewUserIncorrectParamValues_TC006_007(PostNewUser.java:103)
 
-com.eo.tests.PostNewUser.createNewUserIncorrectParamValues_TC006_007[$%*, @&^](2)  Time elapsed: 0.345 s  <<< FAILURE!
+com.eo.tests.PostNewUser.createNewUserIncorrectParamValues_TC006_007[$%*, @&^](2)  Time elapsed: 0.153 s  <<< FAILURE!
 java.lang.AssertionError: expected [400] but found [201]
 	at com.eo.tests.PostNewUser.createNewUserIncorrectParamValues_TC006_007(PostNewUser.java:103)
 

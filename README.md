@@ -80,4 +80,9 @@ Index HTML report :
 
 ![IndexHTML Report](/test-output/Index-HTML%20Report.png "Index HTML Report")
 
+# Logs Generated after Test cases execution/run 
+After test case execution logs are generated which shows log info,error,debug messages.
+
+Log info Path:
+..\ RestAssuredAPITestEO\logs\Mylogs-(Date of logs generated)
 
